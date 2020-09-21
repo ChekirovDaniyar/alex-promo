@@ -1,0 +1,266 @@
+@media screen and (max-width: 1245px) {
+  .header_contact {
+    font-size: 15px;
+  }
+  .header_contact img {
+    width: 25px;
+  }
+  .header_diller{
+    font-size: 15px;
+  }
+  .header_diller img {
+    width: 25px;
+  }
+  .header_nav {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .header_contact {
+    font-size: 13px;
+  }
+  .header_contact img {
+    width: 22px;
+  }
+  .header_diller{
+    font-size: 13px;
+  }
+  .header_diller img {
+    width: 22px;
+  }
+  .header_nav {
+    font-size: 11px;
+  }
+  .header_input, .header_search_btn, .header_catalog {
+    height: 20px;
+  }
+  .header_catalog span {
+    font-size: 13px;
+  }
+  .v_line_diller span {
+    height: 17px;
+  }
+  p.description {
+    font-size: 15px;
+  }
+  .item_icons img {
+    width: 28px;
+  }
+  .item {
+    width: 20%;
+  }
+  p.item_name {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .header_contact {
+    font-size: 11px;
+  }
+  .header_contact img {
+    width: 21px;
+  }
+  .header_diller{
+    font-size: 11px;
+  }
+  .header_diller img {
+    width: 21px;
+  }
+  .header_nav {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .header_contact {
+    font-size: 10px;
+  }
+  .header_contact img {
+    width: 19px;
+  }
+  .header_diller{
+    font-size: 10px;
+  }
+  .header_diller img {
+    width: 19px;
+  }
+  .header_nav {
+    font-size: 9px;
+  }
+  .header_logo img {
+    width: 180px;
+  }
+  .header_input, .header_search_btn, .header_catalog {
+    height: 15px;
+  }
+  .number_circle {
+    width: 12px;
+    height: 12px;
+    font-size: 9px;
+  }
+  .input_icon img {
+    width: 18px;
+  }
+  .input_icon span {
+    height: 15px;
+    width: 1px;
+  }
+  .v_line_diller span {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .header_logo img {
+    width: 140px;
+  }
+  .header_location span {
+    font-size: 12px;
+  }
+  .header_contact {
+    font-size: 9px;
+  }
+  .header_input, .header_search_btn, .header_catalog {
+    height: 12px;
+  }
+  .header_contact img {
+    width: 15px;
+  }
+  .header_diller img {
+    width: 15px;
+  }
+  .number_circle {
+    width: 10px;
+    height: 10px;
+    font-size: 9px;
+  }
+  .input_icon img {
+    width: 15px;
+  }
+  .input_icon span {
+    height: 15px;
+    width: 1px;
+  }
+  .filter_menu_item button span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .header_logo img {
+    width: 120px;
+  }
+  .header_location span {
+    font-size: 11px;
+  }
+  .header_contact {
+    font-size: 8px;
+  }
+  .header_input, .header_search_btn, .header_catalog {
+    height: 11px;
+  }
+  .header_nav {
+    font-size: 8px
+  }
+  .header_contact img {
+    width: 13px;
+  }
+  .header_diller img {
+    width: 13px;
+  }
+  .number_circle {
+    width: 9px;
+    height: 9px;
+    font-size: 8px;
+  }
+  .input_icon img {
+    width: 13px;
+  }
+  .input_icon span {
+    height: 13px;
+    width: 1px;
+  }
+  p.item_name {
+    font-size: 12px;
+  }
+  footer {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 730px) {
+  header {
+    display: none;
+  }
+  .active_header {
+    display: block;
+  }
+  .header_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .header_left {
+    display: flex;
+  }
+  .header_left input {
+    width: 150px;
+  }
+  header > .container {
+    width: 100%;
+  }
+  .header_right {
+    display: flex;
+    text-align: center;
+  }
+  .header_nav {
+    margin-left: 0;
+  }
+  .header_contact {
+    margin-left: 0;
+  }
+  footer {
+    font-size: 10px;
+  }
+  .footer_social_media img {
+    width: 20px;
+  }
+  .filter_menu_item button img {
+    width: 18px;
+  }
+  .filter_menu_item button {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 650px) {
+  p.item_name {
+    font-size: 11px;
+  }
+  .item_icons img {
+    width: 15px;
+  }
+  p.description {
+    font-size: 12px;
+  }
+  .item {
+    width: 23%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .item {
+    width: 35%;
+  }
+  footer {
+    font-size: 10px;
+  }
+  .footer_social_media img {
+    width: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .item {
+    width: 30%;
+  }
+}

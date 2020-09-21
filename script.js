@@ -10,14 +10,16 @@ function filterItems() {
     }
   }
   else {
-    items[i].classList.add('hide')
-    selectedArray.forEach(el => {
-      for(let i = 0; i < items.length; i++) {
-        if(items[i].classList.contains(el)) {
-          items[i].classList.remove('hide')
+    for(let i = 0; i < items.length; i++) {
+      items[i].classList.add('hide')
+    }
+    for(let i = 0; i < selectedArray.length; i++) {
+      for(let j = 0; j < items.length; j++) {
+        if(items[j].classList.contains(selectedArray[i])) {
+          items[j].classList.remove('hide')
         }
       }
-    })
+    }
   }
 }
 
@@ -34,3 +36,11 @@ function toogle_menu(id, payload) {
   filterItems()
 }
 filterItems()
+
+function toogle_hamburger() {
+  document.getElementById('hamburger').classList.toggle('active_hamburger')
+  document.getElementById('header').classList.toggle('active_header')
+}
+document.getElementById('hamburger').addEventListener('click', function () {
+  toogle_hamburger()
+})
