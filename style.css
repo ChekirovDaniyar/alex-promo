@@ -315,6 +315,7 @@ footer {
 } */
 .hamburger {
   position: fixed;
+  display: none;
   margin-top: 5px;
   margin-left: 5px;
   width: 50px;

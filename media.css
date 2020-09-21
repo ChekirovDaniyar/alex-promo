@@ -196,6 +196,9 @@
   .active_header {
     display: block;
   }
+  .hamburger {
+    display: block;
+  }
   .header_content {
     display: flex;
     justify-content: center;
