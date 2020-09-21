@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alex Promo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header_content">
+        <div class="header_left">
+            <div class="header_left_top">
+            <div class="header_logo">
+              <img src="./img/logo.png" alt="">
+            </div>
+            <div class="header_location">
+              <img class="location_icon" src="./img/Vector.png" alt="">
+              <span>Красноярск</span>
+              <img class="dropdown1" src="./img/dropdown1.png" alt="">
+            </div>
+          </div>
+          <div class="header_search">
+            <div class="header_catalog">
+              <div class="three_dots">
+                <span class="square_dot"></span>
+                <span class="square_dot"></span>
+                <span class="square_dot"></span>
+              </div>
+              <span>Каталог</span>
+              <img src="./img/dropdown2.png" alt="">
+            </div>
+            <div class="header_input">
+              <input type="text" placeholder="Поиск">
+              <div class="input_icon">
+                <span class="v_line"></span>
+                <img class="filter_icon" src="./img/filter.png" alt="">
+              </div>
+            </div>
+            <div class="header_search_btn">
+              <img src="./img/search1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="header_right">
+          <div class="header_contact">
+                <div class="phone">
+                  <img src="./img/phone_icon.png" alt="">
+                  <a href="tel:+7(391)228-70-75">+7(391)228-70-75</a>
+                </div>
+              <div class="mail">
+                <img src="./img/mail1.png" alt="">
+                <a href="mailto:office@alex-promo.ru">office@alex-promo.ru</a>
+              </div>
+          </div>
+          <div class="header_nav">
+            <a href="#">Типы нанесения</a>
+            <a href="#">Праздники</a>
+            <a href="#">Контакты</a>
+          </div>
+          <div class="header_diller">
+            <div class="cart">
+              <img src="./img/cart_icon.png" alt="">
+              <div class="number_circle">2</div>
+            </div>
+            <div class="heart">
+              <img src="./img/heart.png" alt="">
+              <div class="number_circle">2</div>
+            </div>
+            <div class="diller">
+              <img src="./img/diller.png" alt="">
+              <span>Стать диллером</span>
+            </div>
+            <div class="v_line_diller">
+              <span></span>
+            </div>
+            <div class="sign_in">
+              <span>Войти</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="container">
+      <div class="content">
+        <div class="url">
+          <p>Главная > Типы нанесения</p>
+        </div>
+        <h2>Типы нанесения</h2>
+        <p>В этом разделе вы сможете ознакомиться
+           со всеми типами нанесения логотипов и изображений
+            на бизнес-подарки, которые мы предлагаем.
+             Здесь вы узнаете все плюсы и минусы каждого способа нанесения,
+           а также сможете выбрать идеальное нанесение для вашего изделия.
+        </p>
+        <h3>Фильтрация типов нанесения по материалам изделий:</h3>
+        <div class="filter_menu">
+          <div class="line1">
+            <div class="filter_menu_item">
+              <button  id="menu1" onclick="toogle_menu('menu1', 'plastic')">
+                <img src="./img/bottle.png" alt="">
+                <span>Пластик</span>
+              </button>
+              <button id="menu2" onclick="toogle_menu('menu2', 'glass')">
+                <img src="./img/glass.png" alt="">
+                <span>Стекло</span>
+              </button>
+              <button id="menu3" onclick="toogle_menu('menu3', 'paper')">
+                <img src="./img/paper.png" alt="">
+                <span>Бумага, пластик</span>
+              </button>
+              <button id="menu4" onclick="toogle_menu('menu4', 'ceramics')">
+                <img src="./img/ceramics.png" alt="">
+                <span>Керамика, фарфор</span>
+              </button>
+            </div>
+          </div>
+          <div class="line2">
+            <div class="filter_menu_item">
+              <button id="menu5" onclick="toogle_menu('menu5', 'tshirt')">
+                <img src="./img/tshirt.png" alt="">
+                <span>Текстиль</span>
+              </button>
+              <button id="menu6" onclick="toogle_menu('menu6', 'tree')">
+                <img src="./img/tree.png" alt="">
+                <span>Дерево</span>
+              </button>
+              <button id="menu7" onclick="toogle_menu('menu7', 'metal')">
+                <img src="./img/metal.png" alt="">
+                <span>Металл</span>
+              </button>
+              <button id="menu8" onclick="toogle_menu('menu8', 'organic')">
+                <img src="./img/organic-plastic.png" alt="">
+                <span>Оргапластик</span>
+              </button>
+            </div>
+            <div class="line3">
+              <div class="filter_menu_item col3">
+                <button id="menu9" onclick="toogle_menu('menu9', 'rock')">
+                  <img src="./img/diamond.png" alt="">
+                  <span>Камень, мрамор</span>
+                </button>
+                <button id="menu10" onclick="toogle_menu('menu10', 'skin')">
+                  <img src="./img/skin.png" alt="">
+                  <span>Кожа</span>
+                </button>
+                <button id="menu11" onclick="toogle_menu('menu11', 'termo')">
+                  <img src="./img/termo.png" alt="">
+                  <span>Термоустойчивый материал</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div id="items" class="items">
+            <div class="hide item plastic glass paper ceramics">
+              <img src="./img/item1.png" alt="">
+              <p class="item_name">Тампечать</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/glass.png" alt="">
+                <img src="./img/paper.png" alt="">
+                <img src="./img/termo.png" alt="">
+              </div>
+              <p class="description">Пластик, стекло, бумага, картон, керамика, фосфор</p>
+            </div>
+            <div class="hide item plastic paper tshirt tree">
+              <img src="./img/item2.png" alt="">
+              <p class="item_name">Трафаретная печать</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/paper.png" alt="">
+                <img src="./img/tshirt.png" alt="">
+                <img src="./img/tree.png" alt="">
+              </div>
+              <p class="description">Пластик, бумага, картон, текстиль, дерево</p>
+            </div>
+            <div class="hide item tshirt termo">
+              <img src="./img/item3.png" alt="">
+              <p class="item_name">Термотрансфер</p>
+              <div class="item_icons">
+                <img src="./img/tshirt.png" alt="">
+                <img src="./img/termo.png" alt="">
+              </div>
+              <p class="description">Текстиль, термоустойчивый метериал</p>
+            </div>
+            <div class="hide item tshirt">
+              <img src="./img/item4.png" alt="">
+              <p class="item_name">Тиснение</p>
+              <div class="item_icons">
+                <img src="./img/tshirt.png" alt="">
+              </div>
+              <p class="description">Кожа</p>
+            </div>
+            <div class="hide item plastic paper tree metal organic">
+              <img src="./img/item5.png" alt="">
+              <p class="item_name">Ультрафиолетовая печать</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/paper.png" alt="">
+                <img src="./img/tree.png" alt="">
+                <img src="./img/metal.png" alt="">
+                <img src="./img/organic-plastic.png" alt="">
+              </div>
+              <p class="description">Пластик, бумага, картон, дерево, металл, оргпластик</p>
+            </div>
+            <div class="hide item plastic glass tree skin rock">
+              <img src="./img/item6.png" alt="">
+              <p class="item_name">Лазерная гравировка</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/glass.png" alt="">
+                <img src="./img/tree.png" alt="">
+                <img src="./img/skin.png" alt="">
+                <img src="./img/diamond.png" alt="">
+              </div>
+              <p class="description">Пластик, стекло, кожа, дерево, металл, камень, мрамор</p>
+            </div>
+            <div class="hide item tshirt">
+              <img src="./img/item7.png" alt="">
+              <p class="item_name">Текстильный принтер</p>
+              <div class="item_icons">
+                <img src="./img/tshirt.png" alt="">
+              </div>
+              <p class="description">Текстиль</p>
+            </div>
+            <div class="hide item plastic glass paper">
+              <img src="./img/item8.png" alt="">
+              <p class="item_name">Полимерная смола</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/glass.png" alt="">
+                <img src="./img/paper.png" alt="">
+              </div>
+              <p class="description">Пластик, стекло, бумага, картон</p>
+            </div>
+            <div class="hide item plastic termo">
+              <img src="./img/item9.png" alt="">
+              <p class="item_name">Деколь</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/termo.png" alt="">
+              </div>
+              <p class="description">Стекло, керамика, фарфор</p>
+            </div>
+            <div class="hide item tshirt">
+              <img src="./img/item10.png" alt="">
+              <p class="item_name">Вышивка</p>
+              <div class="item_icons">
+                <img src="./img/tshirt.png" alt="">
+              </div>
+              <p class="description">Текстиль</p>
+            </div>
+            <div class="hide item paper">
+              <img src="./img/item11.png" alt="">
+              <p class="item_name">Шубер</p>
+              <div class="item_icons">
+                <img src="./img/paper.png" alt="">
+              </div>
+              <p class="description">Бумага,картон</p>
+            </div>
+            <div class="hide item plastic glass paper tree metal">
+              <img src="./img/item12.png" alt="">
+              <p class="item_name">Цифровая печать</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/glass.png" alt="">
+                <img src="./img/paper.png" alt="">
+                <img src="./img/tree.png" alt="">
+                <img src="./img/metal.png" alt="">
+              </div>
+              <p class="description">Пластик, стекло, бумага, картон, дерево, металл</p>
+            </div>
+            <div class="hide item plastic termo tshirt metal">
+              <img src="./img/item13.png" alt="">
+              <p class="item_name">Сублимация</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/termo.png" alt="">
+                <img src="./img/tshirt.png" alt="">
+                <img src="./img/metal.png" alt="">
+              </div>
+              <p class="description">Стекло, керамика, фарфор, текстиль, металл</p>
+            </div>
+            <div class="hide item bottle paper skin tree metal">
+              <img src="./img/item14.png" alt="">
+              <p class="item_name">Металлостикер</p>
+              <div class="item_icons">
+                <img src="./img/bottle.png" alt="">
+                <img src="./img/paper.png" alt="">
+                <img src="./img/skin.png" alt="">
+                <img src="./img/tree.png" alt="">
+                <img src="./img/metal.png" alt="">
+              </div>
+              <p class="description">Пластик, бумага, картон, кожа, дерево, металл</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
